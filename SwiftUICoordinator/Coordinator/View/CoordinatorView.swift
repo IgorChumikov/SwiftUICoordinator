@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CoordinatorView: View {
     
+    // MARK: - Properties
+    
     @StateObject private var coordinator = Coordinator()
+    
+    // MARK: - Content
     
     var body: some View {
         NavigationStack(path: $coordinator.path) {

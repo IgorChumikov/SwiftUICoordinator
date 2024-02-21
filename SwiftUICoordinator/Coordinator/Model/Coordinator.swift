@@ -7,35 +7,17 @@
 
 import SwiftUI
 
-enum Page: String, Identifiable {
-    case apple, banana, carrot
-    
-    var id: String {
-        self.rawValue
-    }
-}
-
-enum Sheet: String, Identifiable {
-    case lemon
-    
-    var id: String {
-        self.rawValue
-    }
-}
-
-enum FullScreenCover: String, Identifiable {
-    case olive
-    
-    var id: String {
-        self.rawValue
-    }
-}
+// MARK: - Coordinator
 
 final class Coordinator: ObservableObject {
+    
+    // MARK: - Properties
     
     @Published var path = NavigationPath()
     @Published var sheet: Sheet?
     @Published var fullScreenCover: FullScreenCover?
+    
+    // MARK: - Functions
     
     func push(_ page: Page) {
         self.path.append(page)
@@ -64,6 +46,8 @@ final class Coordinator: ObservableObject {
     func dismissFullScreenCover() {
         fullScreenCover = nil
     }
+    
+    // MARK: - Functions View
     
     @ViewBuilder
     func build(_ page: Page) -> some View {

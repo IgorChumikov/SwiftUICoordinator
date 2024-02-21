@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AppleView: View {
     
+    // MARK: - Properties
+    
     @EnvironmentObject private var coordinator: Coordinator
+    
+    // MARK: - Content
     
     var body: some View {
         List {
