@@ -78,7 +78,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		AC5ED2812B86538E009E4919 /* View */ = {
+		AC5ED2812B86538E009E4919 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				C95A218D2986771700FAEFBF /* AppleView.swift */,
@@ -87,7 +87,7 @@
 				C95A21932986774E00FAEFBF /* LemonView.swift */,
 				C95A21952986775C00FAEFBF /* OliveView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C95A2173298676D700FAEFBF = {
@@ -109,7 +109,7 @@
 		C95A217E298676D700FAEFBF /* SwiftUICoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				AC5ED2812B86538E009E4919 /* View */,
+				AC5ED2812B86538E009E4919 /* Views */,
 				AC5ED2782B86470B009E4919 /* Coordinator */,
 				C95A217F298676D700FAEFBF /* SwiftUICoordinatorApp.swift */,
 				C95A2183298676D800FAEFBF /* Assets.xcassets */,
