@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - CoordinatorView
+
 struct CoordinatorView: View {
     
     // MARK: - Properties

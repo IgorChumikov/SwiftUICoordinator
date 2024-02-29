@@ -7,7 +7,9 @@
 
 import UIKit
 
-class BananaUIKitView: UIViewController {
+// MARK: - BananaUIKitView
+
+final class BananaUIKitView: UIViewController {
 
     // MARK: - Properties
     

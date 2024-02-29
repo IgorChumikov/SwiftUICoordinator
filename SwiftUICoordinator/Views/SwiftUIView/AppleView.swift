@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - AppleView
+
 struct AppleView: View {
     
     // MARK: - Properties

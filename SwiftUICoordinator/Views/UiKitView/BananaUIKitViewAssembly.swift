@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - BananaUIKitViewAssembly
+
 struct BananaUIKitViewAssembly: UIViewControllerRepresentable {
     
     // MARK: - Properties

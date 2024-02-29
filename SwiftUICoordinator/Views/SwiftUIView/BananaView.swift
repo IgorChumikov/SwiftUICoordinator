@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - BananaView
+
 struct BananaView: View {
     
     // MARK: - Properties

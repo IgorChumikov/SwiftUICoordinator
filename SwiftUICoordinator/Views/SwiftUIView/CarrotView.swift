@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: - CarrotView
+
 struct CarrotView: View {
     
     // MARK: - Properties
