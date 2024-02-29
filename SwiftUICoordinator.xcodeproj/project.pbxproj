@@ -12,6 +12,8 @@
 		AC5ED27C2B86473E009E4919 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5ED27B2B86473E009E4919 /* Page.swift */; };
 		AC5ED27E2B864754009E4919 /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5ED27D2B864754009E4919 /* Sheet.swift */; };
 		AC5ED2802B864765009E4919 /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5ED27F2B864765009E4919 /* FullScreenCover.swift */; };
+		ACC20E272B9073D2006EF14C /* BananaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E262B9073D2006EF14C /* BananaViewController.swift */; };
+		ACC20E292B90760D006EF14C /* BananaUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E282B90760D006EF14C /* BananaUIKitView.swift */; };
 		C95A2180298676D700FAEFBF /* SwiftUICoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A217F298676D700FAEFBF /* SwiftUICoordinatorApp.swift */; };
 		C95A2184298676D800FAEFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95A2183298676D800FAEFBF /* Assets.xcassets */; };
 		C95A2187298676D800FAEFBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95A2186298676D800FAEFBF /* Preview Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		AC5ED27B2B86473E009E4919 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		AC5ED27D2B864754009E4919 /* Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
 		AC5ED27F2B864765009E4919 /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
+		ACC20E262B9073D2006EF14C /* BananaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaViewController.swift; sourceTree = "<group>"; };
+		ACC20E282B90760D006EF14C /* BananaUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaUIKitView.swift; sourceTree = "<group>"; };
 		C95A217C298676D700FAEFBF /* SwiftUICoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A217F298676D700FAEFBF /* SwiftUICoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoordinatorApp.swift; sourceTree = "<group>"; };
 		C95A2183298676D800FAEFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,13 +85,31 @@
 		AC5ED2812B86538E009E4919 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACC20E2A2B907727006EF14C /* SwiftUIView */,
+				ACC20E252B9073A8006EF14C /* UiKitView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACC20E252B9073A8006EF14C /* UiKitView */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E262B9073D2006EF14C /* BananaViewController.swift */,
+				ACC20E282B90760D006EF14C /* BananaUIKitView.swift */,
+			);
+			path = UiKitView;
+			sourceTree = "<group>";
+		};
+		ACC20E2A2B907727006EF14C /* SwiftUIView */ = {
+			isa = PBXGroup;
+			children = (
 				C95A218D2986771700FAEFBF /* AppleView.swift */,
 				C95A218F2986772800FAEFBF /* BananaView.swift */,
 				C95A21912986773500FAEFBF /* CarrotView.swift */,
 				C95A21932986774E00FAEFBF /* LemonView.swift */,
 				C95A21952986775C00FAEFBF /* OliveView.swift */,
 			);
-			path = Views;
+			path = SwiftUIView;
 			sourceTree = "<group>";
 		};
 		C95A2173298676D700FAEFBF = {
@@ -201,11 +223,13 @@
 				C95A21922986773500FAEFBF /* CarrotView.swift in Sources */,
 				C95A21942986774E00FAEFBF /* LemonView.swift in Sources */,
 				C95A21902986772800FAEFBF /* BananaView.swift in Sources */,
+				ACC20E292B90760D006EF14C /* BananaUIKitView.swift in Sources */,
 				AC5ED27E2B864754009E4919 /* Sheet.swift in Sources */,
 				AC5ED27C2B86473E009E4919 /* Page.swift in Sources */,
 				AC5ED2802B864765009E4919 /* FullScreenCover.swift in Sources */,
 				C95A21962986775C00FAEFBF /* OliveView.swift in Sources */,
 				AC5ED2752B863A96009E4919 /* Coordinator.swift in Sources */,
+				ACC20E272B9073D2006EF14C /* BananaViewController.swift in Sources */,
 				AC5ED2772B863FC2009E4919 /* CoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

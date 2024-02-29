@@ -17,14 +17,18 @@ struct AppleView: View {
     
     var body: some View {
         List {
-            Button("Push 🍌") {
+            Button("Push SwiftUI🍌") {
                 coordinator.push(.banana)
             }
-            Button("Present 🍋") {
+            Button("Present SwiftUI🍋") {
                 coordinator.present(.lemon)
             }
-            Button("Present 🫒") {
+            Button("Present SwiftUI🫒") {
                 coordinator.fullScreenCover(.olive)
+            }
+            
+            Button("Push UIKit 🍌") {
+                coordinator.push(.bananaUIKit)
             }
         }
         .navigationTitle("🍎")
