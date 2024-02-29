@@ -59,7 +59,7 @@ final class Coordinator: ObservableObject {
         case .carrot:
             CarrotView()
         case .bananaUIKit:
-            BananaUIKitView(coordinator: self)
+            BananaUIKitViewAssembly(coordinator: self)
         }
     }
     
